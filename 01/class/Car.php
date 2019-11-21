@@ -9,6 +9,15 @@
 
       public $path = __DIR__ .'/test';
 
+      public function __construct($color, $wheels, $speed, $brand)
+      {
+         $this->color  = $color;
+         $this->wheels = $wheels;
+         $this->speed  = $speed;
+         $this->brand  = $brand;
+         // вызывается автоматически при создании объекта
+      }
+
       public function getCarInfo() {
           echo "<h3>О моем авто:</h3>
                 Марка: {$this->brand} <br>

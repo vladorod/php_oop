@@ -8,8 +8,8 @@ function debug($data) {
     echo `<pre>`. print_r($data) . `</pre>`;
 }
 
-$o1 = new Car;
-$o2 = new Car;
+$o1 = new Car('черный', 10, 1000, 'volvo');
+$o2 = new Car('красный', 120, 1020, 'bmw');
 
 
 echo $o1->getCarInfo();
