@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a238119a-b308-44dc-897e-49e98f7d93c3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/01/class/WriteFIle.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01/file.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01/class/Car.php" beforeDir="false" afterPath="$PROJECT_DIR$/01/class/Car.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/01/index.php" afterDir="false" />
@@ -32,6 +34,11 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="web-ide.project.structure" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Desktop\php_oop\01" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="ruleStates">
       <list>
@@ -56,7 +63,7 @@
       <updated>1574238246352</updated>
       <workItem from="1574238248470" duration="4000" />
       <workItem from="1574238269195" duration="2149000" />
-      <workItem from="1574318856183" duration="1875000" />
+      <workItem from="1574318856183" duration="4661000" />
     </task>
     <servers />
   </component>
@@ -79,7 +86,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="php">
           <url>file://$PROJECT_DIR$/01/index.php</url>
-          <line>8</line>
+          <line>9</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

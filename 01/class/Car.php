@@ -9,13 +9,28 @@
 
       public $path = __DIR__ .'/test';
 
-      public function __construct($color, $wheels, $speed, $brand)
-      {
-         $this->color  = $color;
-         $this->wheels = $wheels;
-         $this->speed  = $speed;
-         $this->brand  = $brand;
-         // вызывается автоматически при создании объекта
+//      public function __construct($color, $wheels, $speed, $brand)
+//      {
+//         $this->color  = $color;
+//         $this->wheels = $wheels;
+//         $this->speed  = $speed;
+//         $this->brand  = $brand;
+//         // вызывается автоматически при создании объекта
+//      }
+
+      public function Car($color, $wheels, $speed, $brand) {
+          $this->color  = $color;
+          $this->wheels = $wheels;
+          $this->speed  = $speed;
+          $this->brand  = $brand;
+
+          // этот метод анохронизм раньше это был конструктор
+      }
+
+      public function getLorem() {
+          ?>
+          <h1>Разрывать тело класса можно</h1>
+          <?php
       }
 
       public function getCarInfo() {
@@ -27,5 +42,10 @@
                 Год выпуска: {$this->year}";
       }
 
-  }
+      public function __destruct()
+      {
+         // когда тело класса удаляется
+      }
+
+}
 
